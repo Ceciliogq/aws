@@ -1,0 +1,20 @@
+## Compute services in AWS
+   - Compute: servers, CPUs for computing, distributed in EC2 instances (Elastic Compute Cloud)
+        - EC2 are virtual machines that emulate physical hardware
+        - Pay even if there is not code running in the instance, as long as the instance is not in "stopped" state
+        - Types of instances: storage, computing or memory optimized, accelerated computing
+        - Better for long running applications
+        - Granular control, as in physical
+   - Containers services: 
+        - EKS (Elastic Kubernetes Service). Orchestrate containairez applications with Kubernetes
+        - ECS (Elastic Container Service)
+        - Fargate: Run container apps serverless 
+        - Good for fast deploy, can start and top quickly
+        - Containers can isolate applications and run microservices to make them independent
+        - Containers can be as small or as large as needed
+        - If persistent data is required or complex networking configurations, container are not so portable
+   - Serverless
+        - lambda function: allow to run code without having to manage servers
+        - only pay when the function is running
+        - Apps running < 15 mins
+        - Good when AWS services call other AWS services.
