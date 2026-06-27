@@ -18,3 +18,17 @@
         - only pay when the function is running
         - Apps running < 15 mins
         - Good when AWS services call other AWS services.
+        - AWS Step functions: sequential execution of several functions.
+
+AWS Batch: - efficiently run hundreds of thousands of batch computing jobs on AWS.
+           - Using Fargate. 
+           - Finite duration jobs that don't require interaction. 
+           - Start when resources available. They go into the queue. Similar to HPC
+
+Amazon Elastic Beanstalk:
+    - When you deploy an app, Beanstalk automatically provisions and manages:
+         Amazon EC2 (servers)
+         Amazon Elastic Load Balancer (traffic distribution)
+         Amazon Auto Scaling (scale up/down instances)
+         Monitoring via CloudWatch
+         Networking (VPC setup, security groups)
