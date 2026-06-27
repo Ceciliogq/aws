@@ -32,3 +32,8 @@ Amazon Elastic Beanstalk:
          Amazon Auto Scaling (scale up/down instances)
          Monitoring via CloudWatch
          Networking (VPC setup, security groups)
+
+AWS LightSail:
+    - pre-packaged virtual servers with predictable pricing and simple setup
+    - "easy" mode of EC2. pre-configured EC2
+
