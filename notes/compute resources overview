@@ -37,3 +37,22 @@ AWS LightSail:
     - pre-packaged virtual servers with predictable pricing and simple setup
     - "easy" mode of EC2. pre-configured EC2
 
+
+Vertical Scaling: increase size of instance, needs to reboot.
+Horizontal scaling: add more small instances. Cheaper.
+
+
+Design principles AWS:
+   - Operational excellence
+   - Security
+   - Relibaility
+   - Operational efficiency
+   - Cost optimization
+   - Sustainability
+
+The shared responsibility model: 
+   - User is responsible for the security "in" the cloud
+   - AWS is responsible for the security "of" the cloud
+   - responsiblity depends on the resource
+   - EC2 is a user's managed resource, so the user is responsible for the security updates.
+
