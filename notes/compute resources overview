@@ -67,3 +67,6 @@ Pricing fundamentals:
 
 IAM is a global service
 
+aws configure
+aws iam list-users
+
