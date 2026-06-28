@@ -70,3 +70,7 @@ IAM is a global service
 aws configure
 aws iam list-users
 
+Users + click one user: IAM Access Advisor -> Last Access: tells which poicies have not been used, to maintain the principle of least privilege.
+
+AWS SDK: manage AWS resources using a programming language
+AWS CLI: "" using Python
