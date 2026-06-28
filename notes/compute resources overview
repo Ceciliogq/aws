@@ -60,7 +60,10 @@ The shared responsibility model:
 - Platform as a service
 - Software as a service
 
-Computing: pay for the time
-Storage: pay for the size of data
-Networking: pay for the data going outside the cloud, data in is free.
+Pricing fundamentals: 
+ - Computing: pay for the time
+ - Storage: pay for the size of data
+ - Networking: pay for the data going outside the cloud, data in is free.
+
+IAM is a global service
 
