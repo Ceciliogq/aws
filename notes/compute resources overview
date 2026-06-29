@@ -70,6 +70,8 @@ IAM is a global service
 aws configure
 aws iam list-users
 
+Port 22 is for ssh. 80 for http. 443 for https
+
 Users + click one user: IAM Access Advisor -> Last Access: tells which poicies have not been used, to maintain the principle of least privilege.
 
 AWS SDK: manage AWS resources using a programming language
