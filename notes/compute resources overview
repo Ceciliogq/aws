@@ -76,3 +76,7 @@ Users + click one user: IAM Access Advisor -> Last Access: tells which poicies h
 
 AWS SDK: manage AWS resources using a programming language
 AWS CLI: "" using Python
+
+EC2:
+   - NEVER add the access key and secret access key in the EC2 instance to use aws cli (i.e. aws configure). Use instead an IAM Role. E.g. a DEMOEC2Role with IAMReadOnlyAccess attached to the EC2 intance. Actions->Security.
+
