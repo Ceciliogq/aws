@@ -96,6 +96,7 @@ AMI: Amazon Machine Images:
    - Allow pre-packaing software in instances so the boot is much faster.
    - For example, create an AMI and in the user data add the installation of http.
    - Then create EC2 instance from AMI image
+   - This is for the software. The "template" also prepare the hardware, which type, which storage, ....
 
 
 
