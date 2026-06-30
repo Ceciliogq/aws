@@ -101,6 +101,9 @@ AMI: Amazon Machine Images:
 EFS: Elastic File System
    - IA: Infrequent Access. Cheaper, file that are not required to be fast accessed
 
+Shared Responsiblity:
+   - AWS: replicate data in EBS, EFS, replace faulty hardware, ensure employes cannot access your data
+
 
 
 
