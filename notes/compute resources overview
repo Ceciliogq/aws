@@ -98,6 +98,9 @@ AMI: Amazon Machine Images:
    - Then create EC2 instance from AMI image
    - This is for the software. The "template" also prepare the hardware, which type, which storage, ....
 
+EFS: Elastic File System
+   - IA: Infrequent Access. Cheaper, file that are not required to be fast accessed
+
 
 
 
