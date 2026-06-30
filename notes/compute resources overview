@@ -83,6 +83,10 @@ EC2:
        - On-demand: full price as you go.
        - Spot instances: the cheapest. You can lose them if they become more expensive than what you paid for.
        - Reserved instances: reserve for 1 or 3 years
+
+EBS (Elastic Block Storage) Volumes:
+   - Attached to an instance in a specific region.
+
        - Saving plans: pay a certain amount for a period of time
        - Dedicated host: reserve the whole data center
        - Capacity reservations: reserve the availability of some resources. You pay full price even if you don't use them.
