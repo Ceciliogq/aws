@@ -90,6 +90,12 @@ EC2:
 EBS (Elastic Block Storage) Volumes:
    - Attached to an instance in a specific region.
    - Delete on termination of the root volume. The rest remain.
+   - Snapshots allow copying volumes from one region to another
+
+AMI: Amazon Machine Images:
+   - Allow pre-packaing software in instances so the boot is much faster.
+   - For example, create an AMI and in the user data add the installation of http.
+   - Then create EC2 instance from AMI image
 
 
 
