@@ -88,9 +88,11 @@ EC2:
        - Capacity reservations: reserve the availability of some resources. You pay full price even if you don't use them.
 
 EBS (Elastic Block Storage) Volumes:
-   - Attached to an instance in a specific region.
+   - Attached to an instance in a specific availability zone (not a region).
    - Delete on termination of the root volume. The rest remain.
    - Snapshots allow copying volumes from one region to another
+
+Instance Store: faster I/O but storage is lost after instance is stopped.
 
 AMI: Amazon Machine Images:
    - Allow pre-packaing software in instances so the boot is much faster.
